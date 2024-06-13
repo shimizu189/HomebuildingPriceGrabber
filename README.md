@@ -13,20 +13,21 @@ Führen Sie npm install aus, um die erforderlichen Pakete zu installieren. Diese
 Verwendung
 Um das Skript auszuführen, verwenden Sie den folgenden Befehl:
 
-.
-├── grab.js                 # Hauptskript zum Scrapen und Speichern der Daten
-├── package.json            # Konfigurationsdatei für Node.js-Projekt
-├── node_modules            # Verzeichnis mit installierten Paketen (automatisch generiert)
-├── jsons                   # Verzeichnis für JSON-Daten
-│   ├── steckdosen.json     # JSON-Datei für Steckdosen-Produkte
-│   ├── rahmen.json         # JSON-Datei für Rahmen-Produkte
-│   ├── lichtschalter.json  # JSON-Datei für Lichtschalter-Produkte
-│   └── andere_produkte.json# JSON-Datei für andere Produkte
-└── export                  # Verzeichnis für exportierte Excel-Dateien
-    ├── steckdosen.xlsx     # Excel-Datei für Steckdosen-Daten
-    ├── rahmen.xlsx         # Excel-Datei für Rahmen-Daten
-    ├── lichtschalter.xlsx  # Excel-Datei für Lichtschalter-Daten
-    └── andere_produkte.xlsx# Excel-Datei für andere Produkte
+
+├── grab.js                         # Hauptskript zum Scrapen und Speichern der Daten    
+├── package.json                    # Konfigurationsdatei für Node.js-Projekt    
+├── node_modules                    # Verzeichnis mit installierten Paketen (automatisch generiert)    
+├── jsons                           # Verzeichnis für JSON-Daten    
+│       ├── steckdosen.json         # JSON-Datei für Steckdosen-Produkte    
+│       ├── rahmen.json             # JSON-Datei für Rahmen-Produkte    
+│       ├── lichtschalter.json      # JSON-Datei für Lichtschalter-Produkte    
+│       └── andere_produkte.json    # JSON-Datei für andere Produkte    
+└── export                          # Verzeichnis für exportierte Excel-Dateien    
+        ├── steckdosen.xlsx     # Excel-Datei für Steckdosen-Daten    
+        ├── rahmen.xlsx         # Excel-Datei für Rahmen-Daten    
+        ├── lichtschalter.xlsx  # Excel-Datei für Lichtschalter-Daten    
+        └── andere_produkte.xlsx# Excel-Datei für andere Produkte
+    
 
     
 Beschreibung der Dateien
