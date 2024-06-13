@@ -64,4 +64,4 @@ Dieses Projekt kann durch Hinzufügen weiterer URLs in urls.json erweitert werde
 
 Autor
 
-Dieses Projekt wurde erstellt von Fabian L.
+Dieses Projekt wurde erstellt von shimizu189.
