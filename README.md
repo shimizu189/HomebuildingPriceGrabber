@@ -1,9 +1,11 @@
 Dieses Repository enthält ein Node.js-Skript zum Scrapen von Produktinformationen von URLs, Konvertieren der Daten in Excel-Dateien und Speichern der Daten in JSON-Dateien basierend auf dem Produkttitel.
 
 Installationsanleitung
+
 Um dieses Skript auszuführen, führen Sie bitte die folgenden Schritte aus:
 
 Node.js Installation:
+
 
 Stellen Sie sicher, dass Node.js auf Ihrem System installiert ist. Installieren Sie es von nodejs.org falls erforderlich.
 Pakete installieren:
@@ -31,6 +33,7 @@ Um das Skript auszuführen, verwenden Sie den folgenden Befehl:
 
     
 Beschreibung der Dateien
+
 grab.js: Das Hauptskript, das die URL-Liste aus urls.json einliest, Produktinformationen von den URLs abruft, diese in JSON-Dateien speichert und in Excel-Dateien exportiert.
 
 package.json: Enthält die Abhängigkeiten des Projekts sowie Skripte zum Starten und Testen.
@@ -40,18 +43,25 @@ jsons/: Verzeichnis für JSON-Dateien, in denen die gesammelten Produktdaten ges
 export/: Verzeichnis für exportierte Excel-Dateien, die die gesammelten Produktdaten enthalten.
 
 Skriptfunktionalitäten
+
 JSON-Daten einlesen: Das Skript liest JSON-Daten für Steckdosen, Rahmen, Lichtschalter und andere Produkte aus entsprechenden Dateien ein.
 
-Daten in Excel exportieren: Die gelesenen JSON-Daten werden in separate Excel-Dateien konvertiert und im export/ Verzeichnis gespeichert.
+Daten in Excel exportieren: 
+Die gelesenen JSON-Daten werden in separate Excel-Dateien konvertiert und im export/ Verzeichnis gespeichert.
 
-Produktdetails abrufen: Das Skript verwendet axios und cheerio, um Produktdetails von den URLs abzurufen und den Preis sowie den Titel zu extrahieren.
+Produktdetails abrufen: 
+Das Skript verwendet axios und cheerio, um Produktdetails von den URLs abzurufen und den Preis sowie den Titel zu extrahieren.
 
-Daten speichern: Basierend auf dem Produkttitel werden die abgerufenen Daten in die entsprechenden JSON-Dateien gespeichert.
+Daten speichern: 
+Basierend auf dem Produkttitel werden die abgerufenen Daten in die entsprechenden JSON-Dateien gespeichert.
 
-Datum formatieren: Das Datum wird im DD-MM-YYYY-Format formatiert, bevor es gespeichert wird.
+Datum formatieren: 
+Das Datum wird im DD-MM-YYYY-Format formatiert, bevor es gespeichert wird.
 
 Erweiterung des Projekts
+
 Dieses Projekt kann durch Hinzufügen weiterer URLs in urls.json erweitert werden. Das Skript erkennt automatisch den Produkttitel und speichert die Daten in die richtige JSON-Datei. Sie können auch zusätzliche Funktionen zum Bearbeiten der gesammelten Daten oder zur Verbesserung der Fehlerbehandlung hinzufügen.
 
 Autor
+
 Dieses Projekt wurde erstellt von Fabian L.
