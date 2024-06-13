@@ -13,12 +13,6 @@ Führen Sie npm install aus, um die erforderlichen Pakete zu installieren. Diese
 Verwendung
 Um das Skript auszuführen, verwenden Sie den folgenden Befehl:
 
-bash
-Code kopieren
-node grab.js
-Dateistruktur
-bash
-Code kopieren
 .
 ├── grab.js                 # Hauptskript zum Scrapen und Speichern der Daten
 ├── package.json            # Konfigurationsdatei für Node.js-Projekt
@@ -33,6 +27,8 @@ Code kopieren
     ├── rahmen.xlsx         # Excel-Datei für Rahmen-Daten
     ├── lichtschalter.xlsx  # Excel-Datei für Lichtschalter-Daten
     └── andere_produkte.xlsx# Excel-Datei für andere Produkte
+
+    
 Beschreibung der Dateien
 grab.js: Das Hauptskript, das die URL-Liste aus urls.json einliest, Produktinformationen von den URLs abruft, diese in JSON-Dateien speichert und in Excel-Dateien exportiert.
 
